@@ -1,5 +1,170 @@
+
+# Awesome  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/jepemo/awesome)
+
+- [Awesome](#awesome)
+    - [Admin Panels](#admin-panels)
+    - [Advanced Console UIs](#advanced-console-uis)
+    - [Algorithms](#algorithms)
+    - [Algorithms and Design Patterns](#algorithms-and-design-patterns)
+    - [Anti](#anti)
+    - [Asset Management](#asset-management)
+    - [Attacks](#attacks)
+    - [Audio](#audio)
+    - [Authentication](#authentication)
+    - [Authentication ](#authentication-)
+    - [Autocomplete](#autocomplete)
+    - [Awesome Hyper ](#awesome-hyper-)
+    - [Awesome Node](#awesome-node)
+    - [Boilerplate](#boilerplate)
+    - [Bruteforcers](#bruteforcers)
+    - [Build Tools](#build-tools)
+    - [CMS](#cms)
+    - [CSS Preprocessors](#css-preprocessors)
+    - [Caching](#caching)
+    - [Charts](#charts)
+    - [ChatOps Tools](#chatops-tools)
+    - [Code Analysis and Linter](#code-analysis-and-linter)
+    - [Code Design](#code-design)
+    - [Command](#command)
+    - [Compatibility](#compatibility)
+    - [Computer Vision](#computer-vision)
+    - [Concurrency and Parallelism](#concurrency-and-parallelism)
+    - [Configuration](#configuration)
+    - [Continuous Integration](#continuous-integration)
+    - [Create](#create)
+    - [Crypto](#crypto)
+    - [Data Analysis](#data-analysis)
+    - [Data Store](#data-store)
+    - [Data Structures](#data-structures)
+    - [Data Validation](#data-validation)
+    - [Data Visualization](#data-visualization)
+    - [Database](#database)
+    - [Database Drivers](#database-drivers)
+    - [Date ](#date-)
+    - [Date and Time](#date-and-time)
+    - [Debugging Tools](#debugging-tools)
+    - [Deep Learning](#deep-learning)
+    - [DevOps Tools](#devops-tools)
+    - [Distributed Systems](#distributed-systems)
+    - [Distribution](#distribution)
+    - [Documentation](#documentation)
+    - [Downloader](#downloader)
+    - [E](#e)
+    - [Editor](#editor)
+    - [Email](#email)
+    - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+    - [Environment Management](#environment-management)
+    - [Exploits](#exploits)
+    - [Files](#files)
+    - [Financial](#financial)
+    - [Foreign Function Interface](#foreign-function-interface)
+    - [Forensics](#forensics)
+    - [Form Components](#form-components)
+    - [Forms](#forms)
+    - [Functional Programming](#functional-programming)
+    - [GUI](#gui)
+    - [Game Development](#game-development)
+    - [Generation ](#generation-)
+    - [Geolocation](#geolocation)
+    - [Go Compilers](#go-compilers)
+    - [Goroutines](#goroutines)
+    - [HTML Manipulation](#html-manipulation)
+    - [HTTP](#http)
+    - [Hardware](#hardware)
+    - [Image Editing](#image-editing)
+    - [Imagery](#imagery)
+    - [Images](#images)
+    - [Implementations](#implementations)
+    - [Interactive Interpreter](#interactive-interpreter)
+    - [Internationalization](#internationalization)
+    - [Job Scheduler](#job-scheduler)
+    - [Loading ](#loading-)
+    - [Logging](#logging)
+    - [Machine Learning](#machine-learning)
+    - [MapReduce](#mapreduce)
+    - [Measurement Reporter](#measurement-reporter)
+    - [Menu](#menu)
+    - [Messaging](#messaging)
+    - [Microsoft Windows](#microsoft-windows)
+    - [Miscellaneous](#miscellaneous)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Network Virtualization](#network-virtualization)
+    - [Networking](#networking)
+    - [News Feed](#news-feed)
+    - [Note](#note)
+    - [Notification](#notification)
+    - [ORM](#orm)
+    - [OpenGL](#opengl)
+    - [Operating Systems](#operating-systems)
+    - [Overlay](#overlay)
+    - [Package Management](#package-management)
+    - [Package Repositories](#package-repositories)
+    - [Permissions](#permissions)
+    - [Platforms](#platforms)
+    - [Podcasts ](#podcasts-)
+    - [Portal](#portal)
+    - [Preprocessors ](#preprocessors-)
+    - [Processes](#processes)
+    - [Props from server](#props-from-server)
+    - [Queue](#queue)
+    - [RESTful API](#restful-api)
+    - [RPC Servers](#rpc-servers)
+    - [Reporter](#reporter)
+    - [Resources](#resources)
+    - [Reversing](#reversing)
+    - [Science](#science)
+    - [Science and Data Analysis](#science-and-data-analysis)
+    - [Search](#search)
+    - [Security](#security)
+    - [Serialization](#serialization)
+    - [Serverless Frameworks](#serverless-frameworks)
+    - [Services](#services)
+    - [Solve](#solve)
+    - [Sortable List](#sortable-list)
+    - [Specific Formats Processing](#specific-formats-processing)
+    - [Standard CLI](#standard-cli)
+    - [Starter Packs](#starter-packs)
+    - [Static Site Generator](#static-site-generator)
+    - [Steganography](#steganography)
+    - [Sticky](#sticky)
+    - [Tagging](#tagging)
+    - [Task management](#task-management)
+    - [Template Engine](#template-engine)
+    - [Template Engines](#template-engines)
+    - [Test User Behavior](#test-user-behavior)
+    - [Testing](#testing)
+    - [Text Processing](#text-processing)
+    - [Third](#third)
+    - [Ticketing](#ticketing)
+    - [Time ](#time-)
+    - [Tree](#tree)
+    - [Tutorials](#tutorials)
+    - [Twitter ](#twitter-)
+    - [Type Select](#type-select)
+    - [UI Animation](#ui-animation)
+    - [UI Layout](#ui-layout)
+    - [UI Navigation](#ui-navigation)
+    - [URL Manipulation](#url-manipulation)
+    - [Utilities](#utilities)
+    - [Validation](#validation)
+    - [Version Control](#version-control)
+    - [Video](#video)
+    - [Videos ](#videos-)
+    - [Visibility Reporter](#visibility-reporter)
+    - [WSGI Servers](#wsgi-servers)
+    - [Wargames](#wargames)
+    - [Web](#web)
+    - [Web Content Extracting](#web-content-extracting)
+    - [Web Crawling](#web-crawling)
+    - [Web Frameworks](#web-frameworks)
+    - [WebSocket](#websocket)
+    - [Websites](#websites)
+    - [Wikis](#wikis)
+    - [Writeups Collections](#writeups-collections)
+
 ## Admin Panels
 *Libraries for administrative interfaces.*
+
 * [Ajenti](https://github.com/ajenti/ajenti) - The admin panel your servers deserve.
 * [django-suit](http://djangosuit.com/) - Alternative Django Admin-Interface (free only for Non-commercial use).
 * [django-xadmin](https://github.com/sshwsfc/xadmin) - Drop-in replacement of Django admin comes with lots of goodies.
@@ -7,8 +172,10 @@
 * [flower](https://github.com/mher/flower) - Real-time monitor and web admin for Celery.
 * [Grappelli](http://grappelliproject.com) - A jazzy skin for the Django Admin-Interface.
 * [Wooey](https://github.com/wooey/wooey) - A Django app which creates automatic web UIs for Python scripts.
+
 ## Advanced Console UIs
 *Libraries for building Console Applications and Console User Interfaces*
+
 * [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that supports fmt.Printf/Sprintf
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
@@ -24,20 +191,28 @@
 * [uilive](https://github.com/gosuri/uilive) - A library for updating terminal output in realtime.
 * [uiprogress](https://github.com/gosuri/uiprogress) - A flexible library to render progress bars in terminal applications.
 * [uitable](https://github.com/gosuri/uitable) - A library to improve readability in terminal apps using tabular data.
+
 ## Algorithms
 *CUNY Hunter College*
+
+
 ## Algorithms and Design Patterns
 *Python implementation of algorithms and design patterns.*
+
 * [algorithms](https://github.com/nryoung/algorithms) - A module of algorithms for Python.
 * [PyPattyrn](https://github.com/tylerlaberge/PyPattyrn) - A simple yet effective library for implementing common design patterns.
 * [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns in Python.
 * [sortedcontainers](http://www.grantjenks.com/docs/sortedcontainers/) - Fast, pure-Python implementation of SortedList, SortedDict, and SortedSet types.
+
 ## Anti
 *Libraries for fighting spam.*
+
 * [django-simple-captcha](https://github.com/mbi/django-simple-captcha) - A simple and highly customizable Django app to add captcha images to any Django form.
 * [django-simple-spam-blocker](https://github.com/moqada/django-simple-spam-blocker) - Simple spam blocker for Django.
+
 ## Asset Management
 *Tools for managing, compressing and minifying website assets.*
+
 * [django-compressor](https://github.com/django-compressor/django-compressor) - Compresses linked and inline JavaScript or CSS into a single cached file.
 * [django-pipeline](https://github.com/jazzband/django-pipeline) - An asset packaging library for Django.
 * [django-storages](https://github.com/jschneier/django-storages) - A collection of custom storage back ends for Django.
@@ -46,10 +221,14 @@
 * [flask-assets](https://github.com/miracle2k/flask-assets) - Helps you integrate webassets into your Flask app.
 * [jinja-assets-compressor](https://github.com/jaysonsantos/jinja-assets-compressor) - A Jinja extension to compile and compress your assets.
 * [webassets](https://github.com/miracle2k/webassets) - Bundles, optimizes, and manages unique cache-busting URLs for static resources.
+
 ## Attacks
 *Tools used for performing various kinds of attacks*
+
+
 ## Audio
 *Libraries for manipulating audio.*
+
 * [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
 * [flac](https://github.com/mewkiz/flac) - A native Go FLAC decoder.
 * [gaad](https://github.com/Comcast/gaad) - A native Go AAC bitstream parser
@@ -80,8 +259,10 @@
 * [talkbox](http://scikits.appspot.com/talkbox) - A Python library for speech/signal processing.
 * [TimeSide](https://github.com/Parisson/TimeSide) - Open web audio processing framework.
 * [tinytag](https://github.com/devsnd/tinytag) - A library for reading music meta data of MP3, OGG, FLAC and Wave files.
+
 ## Authentication
 *Libraries for implementing authentications schemes.*
+
 * [authboss](https://github.com/go-authboss/authboss) - A modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure, and start building your app without having to build an authentication system each time.
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
 * [go-jose](https://github.com/square/go-jose) - A fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
@@ -125,27 +306,43 @@
 * [PyJWT](https://github.com/jpadilla/pyjwt) - Implementation of the JSON Web Token draft 01.
 * [python-jws](https://github.com/brianloveswords/python-jws) - Implementation of JSON Web Signatures draft 02.
 * [python-jwt](https://github.com/davedoesdev/python-jwt) - Module for generating and verifying JSON Web Tokens.
+
 ## Authentication 
 *Libraries for implementing authentications schemes.*
+
+
 ## Autocomplete
 *Autosuggest / autocomplete / typeahead*
+
+
 ## Awesome Hyper 
 *Please read the [contribution guidelines](CONTRIBUTING.md) before contributing.*
+
+
 ## Awesome Node
 *Please read the [contribution guidelines](contributing.md) before contributing.*
+
+
 ## Boilerplate
 *Scaffold / starter kit / Yeoman generator / stack ensemble / seed*
+
+
 ## Bruteforcers
 *Tools used for various kind of bruteforcing (passwords etc.)*
+
+
 ## Build Tools
 *Compile software from source code.*
+
 * [BitBake](http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html) - A make-like build tool for embedded Linux.
 * [buildout](http://www.buildout.org/en/latest/) - A build system for creating, assembling and deploying applications from multiple parts.
 * [PlatformIO](https://github.com/platformio/platformio) - A console tool to build code with different development platforms.
 * [PyBuilder](https://github.com/pybuilder/pybuilder) - A continuous build tool written in pure Python.
 * [SCons](http://www.scons.org/) - A software construction tool.
+
 ## CMS
 *Content Management Systems.*
+
 * [Alchemy CMS](http://alchemy-cms.com) - A powerful, userfriendly and flexible Open Source Rails CMS.
 * [Camaleon CMS](http://camaleon.tuzitio.com/) - A dynamic and advanced content management system based on Ruby on Rails 4.
 * [Comfortable Mexican Sofa](https://github.com/comfy/comfortable-mexican-sofa) - A powerful Rails 4 CMS Engine.
@@ -166,13 +363,17 @@
 * [Quokka](http://quokkaproject.org/) - Flexible, extensible, small CMS powered by Flask and MongoDB.
 * [Wagtail](https://wagtail.io/) - A Django content management system.
 * [Widgy](https://wid.gy/) - Last CMS framework, based on Django.
+
 ## CSS Preprocessors
 *Libraries for preprocessing CSS files*
+
 * [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 * [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
+
 ## Caching
 *Libraries for caching data.*
+
 * [Action caching for Action Pack](https://github.com/rails/actionpack-action_caching) - Action caching for Action Pack.
 * [Dalli](https://github.com/mperham/dalli) - A high performance pure Ruby client for accessing memcached servers.
 * [Garner](https://github.com/artsy/garner) - A set of Rack middleware and cache helpers that implement various caching strategies.
@@ -191,13 +392,19 @@
 * [HermesCache](https://pypi.python.org/pypi/HermesCache) - Python caching library with tag-based invalidation and dogpile effect prevention.
 * [johnny-cache](https://github.com/jmoiron/johnny-cache) - A caching framework for django applications.
 * [pylibmc](https://github.com/lericson/pylibmc) - A Python wrapper around the [libmemcached](http://libmemcached.org/libMemcached.html) interface.
+
 ## Charts
 *Display data in graphs / diagrams*
+
+
 ## ChatOps Tools
 *Libraries for chatbot development.*
+
 * [Errbot](http://errbot.io/) - The easiest and most popular chatbot to implement ChatOps.
+
 ## Code Analysis and Linter
 *Libraries and tools for analysing, parsing and manipulation codebases.*
+
 * [coala](http://coala-analyzer.org/) - Language independent and easily extendable code analysis application.
 * [code2flow](https://github.com/scottrogowski/code2flow) - Turn your Python and JavaScript code into DOT flowcharts.
 * [pycallgraph](https://github.com/gak/pycallgraph) - A library that visualises the flow (call graph) of your Python application.
@@ -205,10 +412,14 @@
 * [Flake8](https://pypi.python.org/pypi/flake8) - The modular source code checker: pep8, pyflakes and co.
 * [pylama](https://github.com/klen/pylama) - Code audit tool for Python and JavaScript.
 * [Pylint](https://www.pylint.org/) - A Fully customizable source code analyzer.
+
 ## Code Design
 *Libraries that help with code design*
+
+
 ## Command
 *Libraries for building command-line application.*
+
 * [asciimatics](https://github.com/peterbrittain/asciimatics) - Cross-platform, full-screen terminal package (i.e.  mouse/keyboard input and coloured, positioned text output) complete with high-level API for complex animations and special effects.
 * [cement](http://builtoncement.com/) - CLI Application Framework for Python.
 * [click](http://click.pocoo.org/dev/) - A package for creating beautiful command line interfaces in a composable way.
@@ -232,27 +443,35 @@
 * [SAWS](https://github.com/donnemartin/saws) - A Supercharged AWS CLI.
 * [thefuck](https://github.com/nvbn/thefuck) - Correcting your previous console command.
 * [try](https://github.com/timofurrer/try) - A dead simple CLI to try out python packages - It's never been easier.
+
 ## Compatibility
 *Libraries for migrating from Python 2 to 3.*
+
 * [Python-Future](http://python-future.org/index.html) - The missing compatibility layer between Python 2 and Python 3.
 * [Python-Modernize](https://github.com/mitsuhiko/python-modernize) - Modernizes Python code for eventual Python 3 migration.
 * [Six](https://pypi.python.org/pypi/six) - Python 2 and 3 compatibility utilities.
+
 ## Computer Vision
 *Libraries for computer vision.*
+
 * [OpenCV](http://opencv.org/) - Open Source Computer Vision Library.
 * [pyocr](https://github.com/jflesch/pyocr) - A wrapper for Tesseract and Cuneiform.
 * [pytesseract](https://github.com/madmaze/pytesseract) - Another wrapper for [Google Tesseract OCR](https://github.com/tesseract-ocr).
 * [SimpleCV](http://simplecv.org/) - An open source framework for building computer vision applications.
+
 ## Concurrency and Parallelism
 *Libraries for concurrent and parallel execution.*
+
 * [eventlet](http://eventlet.net/) - Asynchronous framework with WSGI support.
 * [gevent](http://www.gevent.org/) - A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet).
 * [multiprocessing](https://docs.python.org/2/library/multiprocessing.html) - (Python standard library) Process-based "threading" interface.
 * [threading](https://docs.python.org/2/library/threading.html) - (Python standard library) Higher-level threading interface.
 * [Tomorrow](https://github.com/madisonmay/Tomorrow) - Magic decorator syntax for asynchronous code.
 * [uvloop](https://github.com/MagicStack/uvloop) - Ultra fast implementation of asyncio event loop on top of libuv.
+
 ## Configuration
 *Libraries for storing and parsing configuration options.*
+
 * [Configatron](https://github.com/markbates/configatron) - Simple and feature rich configuration system for Ruby apps.
 * [Configus](https://github.com/kaize/configus) - Helps you easily manage environment specific settings.
 * [dotenv](https://github.com/bkeepers/dotenv) - Loads environment variables from `.env`.
@@ -281,8 +500,10 @@
 * [ConfigParser](https://docs.python.org/2/library/configparser.html) - (Python standard library) INI file parser.
 * [profig](http://profig.readthedocs.org/en/default/) - Config from multiple formats with value conversion.
 * [python-decouple](https://github.com/henriquebastos/python-decouple) - Strict separation of settings from code.
+
 ## Continuous Integration
 *See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).*
+
 * [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) - Not specific to docker but relevant.
 * [Buddy](https://buddy.works) - The best of Git, build & deployment tools combined into one powerful tool that supercharged our development
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
@@ -531,20 +752,30 @@
 * [Travis CI](https://travis-ci.org) - A popular CI service for your open source and [private](https://travis-ci.com) projects. (GitHub only)
 * [Vexor CI](https://vexor.io) - A continuous integration tool for private apps with pay-per-minute billing model.
 * [Wercker](http://wercker.com/) - A Docker-based platform for building and deploying applications and microservices.
+
 ## Create
 *Tools used for creating CTF challenges*
+
+
 ## Crypto
 *Tools used for solving Crypto challenges*
+
+
 ## Data Analysis
 *Libraries for data analyzing.*
+
 * [Blaze](https://github.com/blaze/blaze) - NumPy and Pandas interface to Big Data.
 * [Open Mining](https://github.com/mining/mining) - Business Intelligence (BI) in Pandas interface.
 * [Orange](http://orange.biolab.si/) - Data mining, data visualization, analysis and machine learning through visual programming or scripts.
 * [Pandas](http://pandas.pydata.org/) - A library providing high-performance, easy-to-use data structures and data analysis tools.
+
 ## Data Store
 *Data flow / data management / data stores / components state / data flow*
+
+
 ## Data Structures
 *Generic datastructures and algorithms in Go.*
+
 * [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
@@ -568,8 +799,10 @@
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - An in-memory LRU string-interface{} map with expiration for golang
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
+
 ## Data Validation
 *Libraries for validating data. Used for forms in many cases.*
+
 * [Cerberus](https://github.com/nicolaiarocci/cerberus/) - A lightweight and extensible data validation library.
 * [colander](http://docs.pylonsproject.org/projects/colander/en/latest/) - Validating and deserializing data obtained via XML, JSON, an HTML form post.
 * [jsonschema](https://github.com/Julian/jsonschema) - An implementation of [JSON Schema](http://json-schema.org/) for Python.
@@ -577,8 +810,10 @@
 * [Schematics](https://github.com/schematics/schematics) - Data Structure Validation.
 * [valideer](https://github.com/podio/valideer) - Lightweight extensible data validation and adaptation library.
 * [voluptuous](https://github.com/alecthomas/voluptuous) - A Python data validation library.
+
 ## Data Visualization
 *Libraries for visualizing data. See: [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).*
+
 * [Chartkick](http://ankane.github.io/chartkick/) - Create beautiful Javascript charts with one line of Ruby. Works with Rails, Sinatra and most browsers (including IE 6).
 * [GeoPattern](https://github.com/jasonlong/geo_pattern) - Create beautiful generative geometric background images from a string.
 * [LazyHighCharts](https://github.com/michelson/lazy_high_charts) - A simple and extremely flexible way to use HighCharts from ruby code. Tested on Ruby on Rails, Sinatra and Nanoc, but it should work with others too.
@@ -594,8 +829,10 @@
 * [PyQtGraph](http://www.pyqtgraph.org/) - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
 * [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using Matplotlib.
 * [VisPy](https://github.com/vispy/vispy) - High-performance scientific visualization based on OpenGL.
+
 ## Database
 *Databases implemented in Python.*
+
 * [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [buntdb](https://github.com/tidwall/buntdb) - A fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
@@ -649,8 +886,10 @@
 * [PipelineDB](https://www.pipelinedb.com/) - The Streaming SQL Database.
 * [TinyDB](https://github.com/msiemens/tinydb) - A tiny, document-oriented database.
 * [ZODB](http://www.zodb.org/en/latest/) - A native object database for Python. A key-value and object graph database.
+
 ## Database Drivers
 *Libraries for connecting and operating databases.*
+
 * [Cassandra Driver](https://github.com/datastax/ruby-driver) - A pure ruby driver for Apache Cassandra with asynchronous io and configurable load balancing, reconnection and retry policies.
 * [DataObjects](https://github.com/datamapper/do) - An attempt to rewrite existing Ruby database drivers to conform to one, standard interface.
 * [mongo-ruby-driver](https://github.com/mongodb/mongo-ruby-driver) - MongoDB Ruby driver.
@@ -718,10 +957,14 @@
 * [redis-py](https://github.com/andymccurdy/redis-py) - The Redis Python Client.
 * [telephus](https://github.com/driftx/Telephus) - Twisted based client for Cassandra.
 * [txRedis](https://github.com/deldotdr/txRedis) - Twisted based client for Redis.
+
 ## Date 
 *Libraries for working with dates and times.*
+
+
 ## Date and Time
 *Libraries for working with dates and times.*
+
 * [arrow](https://github.com/crsmithdev/arrow) - Better dates & times for Python.
 * [Chronyk](https://github.com/KoffeinFlummi/Chronyk) - A Python 3 library for parsing human-written times and dates.
 * [dateutil](https://github.com/dateutil/dateutil) - Extensions to the standard Python [datetime](https://docs.python.org/2/library/datetime.html) module.
@@ -731,8 +974,10 @@
 * [PyTime](https://github.com/shinux/PyTime) - A easy-use Python module which aims to operate date/time/datetime by string.
 * [pytz](https://launchpad.net/pytz) - World timezone definitions, modern and historical. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python.
 * [when.py](https://github.com/dirn/When.py) - Providing user-friendly functions to help perform common date and time actions.
+
 ## Debugging Tools
 *Libraries for debugging code.*
+
 * [Byebug](https://github.com/deivid-rodriguez/byebug) - A simple to use, feature rich debugger for Ruby 2.
 * [did_you_mean](https://github.com/yuki24/did_you_mean) - Adds class, method & attributute suggestions to error messages.
 * [Pry Byebug](https://github.com/deivid-rodriguez/pry-byebug) - Pry navigation commands via byebug.
@@ -756,8 +1001,10 @@
 * [manhole](https://github.com/ionelmc/python-manhole) - Debug service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt.
 * [pyelftools](https://github.com/eliben/pyelftools) - Parsing and analyzing ELF files and DWARF debugging information.
 * [pyringe](https://github.com/google/pyringe) - Debugger capable of attaching to and injecting code into Python processes.
+
 ## Deep Learning
 *Frameworks for Neural Networks and Deep Learning. See: [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning).*
+
 * [Caffe](https://github.com/BVLC/caffe) - A fast open framework for deep learning..
 * [Keras](https://github.com/fchollet/keras) - A high-level neural networks library and capable of running on top of either TensorFlow or Theano.
 * [MXNet](https://github.com/dmlc/mxnet) - A deep learning framework designed for both efficiency and flexibility.
@@ -765,8 +1012,10 @@
 * [Pytorch](http://pytorch.org/) - Tensors and Dynamic neural networks in Python with strong GPU acceleration.
 * [TensorFlow](https://github.com/tensorflow/tensorflow) - The most popular Deep Learning framework created by Google.
 * [Theano](https://github.com/Theano/Theano) - A library for fast numerical computation.
+
 ## DevOps Tools
 *Software and libraries for DevOps.*
+
 * [Backup](https://github.com/backup/backup) - Provides an elegant DSL in Ruby for performing backups on UNIX-like systems.
 * [Blender](https://github.com/PagerDuty/blender) - A modular system orchestration framework with pluggable driver and host discovery.
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed services.
@@ -833,8 +1082,10 @@
 * [psutil](https://github.com/giampaolo/psutil) - A cross-platform process and system utilities module.
 * [SaltStack](https://github.com/saltstack/salt) - Infrastructure automation and management system.
 * [supervisor](https://github.com/Supervisor/supervisor) - Supervisor process control system for UNIX.
+
 ## Distributed Systems
 *Packages that help with building Distributed Systems.*
+
 * [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
 * [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
 * [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
@@ -856,16 +1107,20 @@
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
 * [dht](https://godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
 * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
+
 ## Distribution
 *Libraries to create packaged executables for release distribution.*
+
 * [dh-virtualenv](https://github.com/spotify/dh-virtualenv) - Build and distribute a virtualenv as a Debian package.
 * [Nuitka](http://nuitka.net/) - Compile scripts, modules, packages to an executable or extension module.
 * [py2app](http://pythonhosted.org/py2app/) - Freezes Python scripts (Mac OS X).
 * [py2exe](http://www.py2exe.org/) - Freezes Python scripts (Windows).
 * [PyInstaller](https://github.com/pyinstaller/pyinstaller) - Converts Python programs into stand-alone executables (cross-platform).
 * [pynsist](http://pynsist.readthedocs.io/) - A tool to build Windows installers, installers bundle Python itself.
+
 ## Documentation
 *Libraries for generating project documentation.*
+
 * [Annotate](https://github.com/ctran/annotate_models) - Add a comment documenting the current schema to the top or bottom of each of your ActiveRecord models.
 * [Apipie](https://github.com/Apipie/apipie-rails) - Rails API documentation and display tool using Ruby syntax.
 * [Asciidoctor](http://asciidoctor.org) - A fast, Ruby-based text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook, EPUB3, PDF & more.
@@ -888,14 +1143,18 @@
 * [MkDocs](http://www.mkdocs.org/) - Markdown friendly documentation generator.
 * [pdoc](https://github.com/BurntSushi/pdoc) - Epydoc replacement to auto generate API documentation for Python libraries.
 * [Pycco](https://github.com/pycco-docs/pycco) - The literate-programming-style documentation generator.
+
 ## Downloader
 *Libraries for downloading.*
+
 * [s3cmd](https://github.com/s3tools/s3cmd) - A command line tool for managing Amazon S3 and CloudFront.
 * [s4cmd](https://github.com/bloomreach/s4cmd) - Super S3 command line tool, good for higher performance.
 * [you-get](https://www.soimort.org/you-get/) - A YouTube/Youku/Niconico video downloader written in Python 3.
 * [youtube-dl](http://rg3.github.io/youtube-dl/) - A small command-line program to download videos from YouTube.
+
 ## E
 *Frameworks and libraries for e-commerce and payments.*
+
 * [Active Merchant](https://github.com/activemerchant/active_merchant) - A simple payment abstraction library extracted from Shopify.
 * [Braintree](https://github.com/braintree/braintree_ruby) - Braintree Ruby bindings.
 * [credit_card_validations](https://github.com/Fivell/credit_card_validations) - A ruby gem for validating credit card numbers, generating valid numbers, Luhn checks.
@@ -932,10 +1191,14 @@
 * [python-currencies](https://github.com/Alir3z4/python-currencies) - Display money format and its filthy currencies.
 * [forex-python](https://github.com/MicroPyramid/forex-python) - Foreign exchange rates, Bitcoin price index and currency conversion.
 * [shoop](https://www.shoop.io/en/) - An open source E-Commerce platform based on Django.
+
 ## Editor
 *Editor's drafts of CSS specifications*
+
+
 ## Email
 *Libraries for sending and parsing email.*
+
 * [Griddler](https://github.com/thoughtbot/griddler) - Simplify receiving email in Rails
 * [Incoming](https://github.com/honeybadger-io/incoming) - Incoming! helps you receive email in your Rack apps.
 * [LetterOpener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
@@ -1546,8 +1809,10 @@
 * [modoboa](https://github.com/tonioo/modoboa) - A mail hosting and management platform including a modern and simplified Web UI.
 * [Nylas Sync Engine](https://github.com/nylas/sync-engine) - Providing a RESTful API on top of a powerful email sync platform.
 * [yagmail](https://github.com/kootenpv/yagmail) - Yet another Gmail/SMTP client.
+
 ## Embeddable Scripting Languages
 *Embedding other languages inside your go code*
+
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
@@ -1560,8 +1825,10 @@
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
+
 ## Environment Management
 *Libraries for Python version and environment management.*
+
 * [chruby](https://github.com/postmodern/chruby) - Change your current Ruby. No shims, no crazy options or features, ~90 LOC.
 * [fry](https://github.com/terlar/fry) - Simple ruby version manager for fish.
 * [gem_home](https://github.com/postmodern/gem_home) - A tool for changing your $GEM_HOME.
@@ -1575,10 +1842,14 @@
 * [venv](https://docs.python.org/3/library/venv.html) - (Python standard library in Python 3.3+) Creating lightweight virtual environments.
 * [virtualenv](https://pypi.python.org/pypi/virtualenv) - A tool to create isolated Python environments.
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - A set of extensions to virtualenv.
+
 ## Exploits
 *Tools used for solving Exploits challenges*
+
+
 ## Files
 *Libraries for file manipulation and MIME type detection.*
+
 * [imghdr](https://docs.python.org/2/library/imghdr.html) - (Python standard library) Determine the type of an image.
 * [mimetypes](https://docs.python.org/2/library/mimetypes.html) - (Python standard library) Map filenames to MIME types.
 * [path.py](https://github.com/jaraco/path.py) - A module wrapper for [os.path](https://docs.python.org/2/library/os.path.html).
@@ -1586,24 +1857,34 @@
 * [python-magic](https://github.com/ahupp/python-magic) - A Python interface to the libmagic file type identification library.
 * [Unipath](https://github.com/mikeorr/Unipath) - An object-oriented approach to file/directory operations.
 * [watchdog](https://github.com/gorakhargosh/watchdog) - API and shell utilities to monitor file system events.
+
 ## Financial
 *Packages for accounting and finance*
+
 * [accounting](https://github.com/leekchan/accounting) - money and currency formatting for golang
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers
 * [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates
+
 ## Foreign Function Interface
 *Libraries for providing foreign function interface.*
+
 * [cffi](https://pypi.python.org/pypi/cffi) - Foreign Function Interface for Python calling C code.
 * [ctypes](https://docs.python.org/2/library/ctypes.html) - (Python standard library) Foreign Function Interface for Python calling C code.
 * [PyCUDA](https://mathema.tician.de/software/pycuda/) - A Python wrapper for Nvidia's CUDA API.
 * [SWIG](http://www.swig.org/Doc1.3/Python.html) - Simplified Wrapper and Interface Generator.
+
 ## Forensics
 *Registry Viewers*
+
+
 ## Form Components
 *Let the user enter data*
+
+
 ## Forms
 *Libraries for working with forms.*
+
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [conform](https://github.com/leebenson/conform) - Keeps user input in check. Trims, sanitizes & scrubs data based on struct tags.
 * [form](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
@@ -1616,14 +1897,18 @@
 * [django-crispy-forms](https://github.com/maraujop/django-crispy-forms) - A Django app which lets you create beautiful forms in a very elegant and DRY way.
 * [django-remote-forms](https://github.com/WiserTogether/django-remote-forms) - A platform independent Django form serializer.
 * [WTForms](https://github.com/wtforms/wtforms) - A flexible forms validation and rendering library.
+
 ## Functional Programming
 *Functional Programming with Python.*
+
 * [CyToolz](https://github.com/pytoolz/cytoolz/) - Cython implementation of Toolz: High performance functional utilities.
 * [fn.py](https://github.com/kachayev/fn.py) - Functional programming in Python: implementation of missing features to enjoy FP.
 * [funcy](https://github.com/Suor/funcy) - A fancy and practical functional tools.
 * [Toolz](https://github.com/pytoolz/toolz) - A collection of functional utilities for iterators, functions, and dictionaries.
+
 ## GUI
 *Libraries for working with graphical user interface applications.*
+
 * [qtbindings](https://github.com/ryanmelt/qtbindings) - Allows the QT Gui toolkit to be used from Ruby.
 * [RubyGnome2](http://ruby-gnome2.sourceforge.jp/) - Ruby language bindings for the GNOME 2.0 development environment.
 * [Shoes](http://shoesrb.com) - Shoes makes building little graphical programs for Mac, Windows, and Linux super simple.
@@ -1651,8 +1936,10 @@
 * [Toga](https://github.com/pybee/toga) - A Python native, OS native GUI toolkit.
 * [urwid](http://urwid.org/) - A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.
 * [wxPython](http://wxpython.org/) - A blending of the wxWidgets C++ class library with the Python.
+
 ## Game Development
 *Awesome game development libraries.*
+
 * [Gosu](http://www.libgosu.org) - A 2D game development library for the Ruby and C++ programming languages.
 * [Yeah](https://github.com/yeahrb/yeah) - Practical Ruby video game framework.
 * [Azul3D](https://github.com/azul3d/engine) - A 3D game engine written in Go
@@ -1675,10 +1962,14 @@
 * [PyOpenGL](http://pyopengl.sourceforge.net/) - Python ctypes bindings for OpenGL and it's related APIs.
 * [PySDL2](http://pysdl2.readthedocs.io/) - A ctypes based wrapper for the SDL2 library.
 * [RenPy](https://www.renpy.org/) - A Visual Novel engine.
+
 ## Generation 
 *Tools to enhance the language with features like generics via code generation*
+
+
 ## Geolocation
 *Libraries for geocoding addresses and working with latitudes and longitudes.*
+
 * [Geocoder](https://github.com/alexreisner/geocoder) - A complete geocoding solution for Ruby. With Rails it adds geocoding (by street or IP address), reverse geocoding (find street address based on given coordinates), and distance queries.
 * [geoip](https://github.com/cjheath/geoip) - Searches a GeoIP database for a given host or IP address, and returns information about the country where the IP address is allocated, and the city, ISP and other information.
 * [Geokit](https://github.com/geokit/geokit) - Geokit gem provides geocoding and distance/heading calculations.
@@ -1690,21 +1981,27 @@
 * [geojson](https://github.com/frewsxcv/python-geojson) - Python bindings and utilities for GeoJSON.
 * [geopy](https://github.com/geopy/geopy) - Python Geocoding Toolbox.
 * [pygeoip](https://github.com/appliedsec/pygeoip) - Pure Python GeoIP API.
+
 ## Go Compilers
 *Tools for compiling Go to other languages*
+
 * [gopherjs](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript.
 * [llgo](https://github.com/go-llvm/llgo) - LLVM-based compiler for Go.
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
+
 ## Goroutines
 *Tools for managing and working with Goroutines*
+
 * [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 * [goworker](https://github.com/benmanns/goworker) - goworker is a Go-based background worker
 * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
 * [pool](https://github.com/go-playground/pool) - a limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 * [semaphore](https://github.com/kamilsk/semaphore) - Semaphore pattern implementation with timeout of lock/unlock operations based on channel and context.
 * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
+
 ## HTML Manipulation
 *Libraries for working with HTML and XML.*
+
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Providing Pythonic idioms for iterating, searching, and modifying HTML or XML.
 * [bleach](https://github.com/mozilla/bleach) - A whitelist-based HTML sanitization and text linkification library.
 * [cssutils](https://pypi.python.org/pypi/cssutils/) - A CSS library for Python.
@@ -1716,25 +2013,33 @@
 * [WeasyPrint](http://weasyprint.org) - A visual rendering engine for HTML and CSS that can export to PDF.
 * [xmldataset](https://xmldataset.readthedocs.io) - Simple XML Parsing.
 * [xmltodict](https://github.com/martinblech/xmltodict) - Working with XML feel like you are working with JSON.
+
 ## HTTP
 *Libraries for working with HTTP.*
+
 * [grequests](https://github.com/kennethreitz/grequests) - requests + gevent for asynchronous HTTP requests.
 * [httplib2](https://github.com/jcgregorio/httplib2) - Comprehensive HTTP client library.
 * [requests](http://docs.python-requests.org/en/latest/) - HTTP Requests for Humans™.
 * [treq](https://github.com/twisted/treq) - Python requests like API built on top of Twisted's HTTP client.
 * [urllib3](https://github.com/shazow/urllib3) - A HTTP library with thread-safe connection pooling, file post support, sanity friendly.
+
 ## Hardware
 *Libraries for programming with hardware.*
+
 * [ino](http://inotool.org/) - Command line toolkit for working with [Arduino](https://www.arduino.cc/).
 * [Pingo](http://www.pingo.io/) - Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo, etc.
 * [Pyro](http://pyrorobotics.com/) - Python Robotics.
 * [PyUserInput](https://github.com/SavinaRoja/PyUserInput) - A module for cross-platform control of the mouse and keyboard.
 * [scapy](https://github.com/secdev/scapy) - A brilliant packet manipulation library.
 * [wifi](https://github.com/rockymeza/wifi) - A Python library and command line tool for working with WiFi on Linux.
+
 ## Image Editing
 *Image manipulation*
+
+
 ## Imagery
 *Libraries for manipulating images.*
+
 * [hmap](https://github.com/rossgoodwin/hmap) - Image histogram remapping.
 * [imgSeek](https://sourceforge.net/projects/imgseek/) - A project for searching a collection of images using visual similarity.
 * [nude.py](https://github.com/hhatto/nude.py) - Nudity detection.
@@ -1747,8 +2052,10 @@
 * [scikit-image](http://scikit-image.org/) - A Python library for (scientific) image processing.
 * [thumbor](https://github.com/thumbor/thumbor) - A smart imaging service. It enables on-demand crop, re-sizing and flipping of images.
 * [wand](https://github.com/dahlia/wand) - Python bindings for [MagickWand](http://www.imagemagick.org/script/magick-wand.php), C API for ImageMagick.
+
 ## Images
 *Libraries for manipulating images.*
+
 * [Busybox](https://github.com/jpetazzo/docker-busybox) - with either `buildroot` or Ubuntu's `busybox-static` by [@jpetazzo][jpetazzo]
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) - A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
 * [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) - Build and run Docker containers leveraging NVIDIA GPUs.
@@ -1776,8 +2083,10 @@
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+
 ## Implementations
 *Implementations of Python.*
+
 * [JRuby](https://github.com/jruby/jruby) - A Java implementation of the Ruby language.
 * [MRuby](https://github.com/mruby/mruby) - Lightweight Ruby. Can be linked and embedded in your application.
 * [Opal](https://github.com/opal/opal) - Ruby to Javascript compiler.
@@ -1795,13 +2104,17 @@
 * [PySec](https://github.com/ebranca/owasp-pysec) - Hardened version of python that makes it easier for security professionals and developers to write applications more resilient to attacks and manipulations.
 * [Pyston](https://github.com/dropbox/pyston) - A Python implementation built using LLVM and modern JIT techniques with the goal of achieving good performance.
 * [Stackless Python](https://bitbucket.org/stackless-dev/stackless/wiki/Home) - An enhanced version of the Python programming language which allows programmers to reap the benefits of thread-based programming without the performance and complexity problems associated with conventional threads.
+
 ## Interactive Interpreter
 *Interactive Python interpreters (REPL).*
+
 * [bpython](https://github.com/bpython/bpython) - A fancy interface to the Python interpreter.
 * [Jupyter Notebook (IPython)](https://jupyter.org) - A rich toolkit to help you make the most out of using Python interactively.
 * [ptpython](https://github.com/jonathanslenders/ptpython) - Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
+
 ## Internationalization
 *Libraries for working with i18n.*
+
 * [FastGettext](https://github.com/grosser/fast_gettext) - Ruby internationalization tool with less memory, simple, clean namespace and threadsafe.
 * [Globalize](https://github.com/globalize/globalize) - Globalize builds on the I18n API in Ruby on Rails to add model translations to ActiveRecord models.
 * [i18n-tasks](https://github.com/glebm/i18n-tasks) - Manage missing and unused translations with the awesome power of static analysis.
@@ -1811,8 +2124,10 @@
 * [twitter-cldr-rb](https://github.com/twitter/twitter-cldr-rb) - Ruby implementation of the ICU (International Components for Unicode) that uses the Common Locale Data Repository to format dates, plurals, and more.
 * [Babel](http://babel.pocoo.org/en/latest/) - An internationalization library for Python.
 * [PyICU](https://github.com/ovalhub/pyicu) - A wrapper of International Components for Unicode C++ library ([ICU](http://site.icu-project.org/)).
+
 ## Job Scheduler
 *Libraries for scheduling jobs.*
+
 * [APScheduler](http://apscheduler.readthedocs.io/) - A light but powerful in-process task scheduler that lets you schedule functions.
 * [django-schedule](https://github.com/thauber/django-schedule) - A calendaring app for Django.
 * [doit](http://pydoit.org/) - A task runner and build tool.
@@ -1822,10 +2137,14 @@
 * [schedule](https://github.com/dbader/schedule) - Python job scheduling for humans.
 * [Spiff](https://github.com/knipknap/SpiffWorkflow) - A powerful workflow engine implemented in pure Python.
 * [TaskFlow](http://docs.openstack.org/developer/taskflow/) - A Python library that helps to make task execution easy, consistent and reliable.
+
 ## Loading 
 *Let the user know that something is being loaded*
+
+
 ## Logging
 *Libraries for generating and working with logs.*
+
 * [Cabin](https://github.com/jordansissel/ruby-cabin) - Structured+contextual logging experiments in Ruby.
 * [Fluentd](https://github.com/fluent/fluentd) - Fluentd collects events from various data sources and writes them to files, database or other types of storages.
 * [HttpLog](https://github.com/trusche/httplog) - Log outgoing HTTP requests.
@@ -1871,8 +2190,10 @@
 * [logging](https://docs.python.org/2/library/logging.html) - (Python standard library) Logging facility for Python.
 * [Raven](https://github.com/getsentry/raven-python) - The Python client for Sentry.
 * [Sentry](https://pypi.python.org/pypi/sentry) - A realtime logging and aggregation server.
+
 ## Machine Learning
 *Libraries for Machine Learning. See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).*
+
 * [PredictionIO Ruby SDK](https://github.com/PredictionIO/PredictionIO-Ruby-SDK) - The PredictionIO Ruby SDK provides a convenient API to quickly record your users' behavior and retrieve personalized predictions for them.
 * [rb-libsvm](https://github.com/febeling/rb-libsvm) - Ruby language bindings for LIBSVM. SVM is a machine learning and classification algorithm.
 * [Ruby Datumbox Wrapper](https://github.com/marloncarvalho/ruby-datumbox) - It's a simple Ruby Datumbox Wrapper. At the moment the API currently allows you to build applications that make use of machine learning algorithms.
@@ -1906,20 +2227,28 @@
 * [surprise](http://surpriselib.com) - A scikit for building and analyzing recommender systems.
 * [vowpal_porpoise](https://github.com/josephreisinger/vowpal_porpoise) - A lightweight Python wrapper for [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/).
 * [xgboost](https://github.com/dmlc/xgboost) - A scalable, portable, and distributed gradient boosting library.
+
 ## MapReduce
 *Frameworks and libraries for MapReduce.*
+
 * [dpark](https://github.com/douban/dpark) - Python clone of Spark, a MapReduce alike framework in Python.
 * [dumbo](https://github.com/klbostee/dumbo) - Python module that allows one to easily write and run Hadoop programs.
 * [luigi](https://github.com/spotify/luigi) - A module that helps you build complex pipelines of batch jobs.
 * [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on Hadoop or Amazon Web Services.
 * [PySpark](http://spark.apache.org/docs/latest/programming-guide.html) - The Spark Python API.
 * [streamparse](https://github.com/Parsely/streamparse) - Run Python code against real-time streams of data. Integrates with [Apache Storm](http://storm.apache.org/).
+
 ## Measurement Reporter
 *Determine and report measurements of an element*
+
+
 ## Menu
 *Menus / Sidebars*
+
+
 ## Messaging
 *Libraries that implement messaging systems*
+
 * [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://business.line.me/en/services/bot) notifications using a binary, docker or Drone CI.
@@ -1941,15 +2270,19 @@
 * [sarama](https://github.com/Shopify/sarama) - A Go library for Apache Kafka.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
+
 ## Microsoft Windows
 *Python programming on Microsoft Windows.*
+
 * [Python(x,y)](http://python-xy.github.io/) - Scientific-applications-oriented Python Distribution based on Qt and Spyder.
 * [pythonlibs](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Unofficial Windows binaries for Python extension packages.
 * [PythonNet](https://github.com/pythonnet/pythonnet) - Python Integration with the .NET Common Language Runtime (CLR).
 * [PyWin32](https://sourceforge.net/projects/pywin32/) - Python Extensions for Windows.
 * [WinPython](https://winpython.github.io/) - Portable development environment for Windows 7/8.
+
 ## Miscellaneous
 *Useful libraries or tools that don't fit in the categories above.*
+
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API.
 * [admin-on-rest](https://github.com/marmelab/admin-on-rest) - Add a ReactJS admin GUI to any RESTful API.
 * [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI speification (formerly known as the Swagger Specification).
@@ -1993,8 +2326,10 @@
 * [pluginbase](https://github.com/mitsuhiko/pluginbase) - A simple but flexible plugin system for Python.
 * [Pychievements](https://github.com/PacketPerception/pychievements) - A framework for creating and tracking achievements.
 * [Tryton](http://www.tryton.org/) - A general purpose business framework.
+
 ## Natural Language Processing
 *Libraries for working with human languages.*
+
 * [Awesome NLP with Ruby](https://github.com/arbox/nlp-with-ruby) - Awesome List for Practical Natural Language Processing done in Ruby.
 * [Parslet](http://kschiess.github.io/parslet/) - A small Ruby library for constructing parsers in the PEG (Parsing Expression Grammar) fashion.
 * [pocketsphinx-ruby](https://github.com/watsonbox/pocketsphinx-ruby) - Ruby speech recognition with Pocketsphinx.
@@ -2036,14 +2371,18 @@
 * [spaCy](https://spacy.io/) - A library for industrial-strength natural language processing in Python and Cython.
 * [TextBlob](https://github.com/sloria/TextBlob) - Providing a consistent API for diving into common NLP tasks.
 * [TextGrocery](https://github.com/2shou/TextGrocery) - A simple, efficient short-text classification tool based on LibLinear and Jieba.
+
 ## Network Virtualization
 *Tools and libraries for Virtual Networking and SDN (Software Defined Networking).*
+
 * [Mininet](http://mininet.org/) - A popular network emulator and API written in Python.
 * [POX](https://github.com/noxrepo/pox) - An open source development platform for Python-based Software Defined Networking (SDN) control applications, such as OpenFlow SDN controllers.
 * [Pyretic](http://frenetic-lang.org/pyretic/) - A member of the Frenetic family of SDN programming languages that provides powerful abstractions over network switches or emulators.
 * [SDX Platform](https://github.com/sdn-ixp/internet2award) - SDN based IXP implementation that leverages Mininet, POX and Pyretic.
+
 ## Networking
 *Libraries for networking programming.*
+
 * [Calico-Docker](https://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
 * [Flannel](https://github.com/coreos/flannel/) - Flannel is a virtual network that gives a subnet to each host for use with container runtimes.
 * [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
@@ -2090,12 +2429,16 @@
 * [pyzmq](http://zeromq.github.io/pyzmq/) - A Python wrapper for the ZeroMQ message library.
 * [Twisted](https://twistedmatrix.com/trac/) - An event-driven networking engine.
 * [txZMQ](https://github.com/smira/txZMQ) - Twisted based wrapper for the ZeroMQ message library.
+
 ## News Feed
 *Libraries for building user's activities.*
+
 * [django-activity-stream](https://github.com/justquick/django-activity-stream) - Generating generic activity streams from the actions on your site.
 * [Stream-Framework](https://github.com/tschellenbach/Stream-Framework) - Building newsfeed and notification systems using Cassandra and Redis.
+
 ## Note
 *See also [Wikis](#wikis)*
+
 * [dillinger](http://dillinger.io/) - The last Markdown editor, ever. ([Source Code](https://github.com/joemccann/dillinger/)) `MIT` `Nodejs`
 * [Jotter](https://github.com/yosko/jotter) - Jotter is a lightweight, no database, powerful web notebook that lets you create and manage notes online safely, quickly & easily. ([Demo](http://tools.yosko.net/demos/jotter/)) `LGPLv3` `PHP`
 * [Laverna](https://laverna.cc/) - Laverna is a Javascript note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. ([Demo](https://laverna.cc/index.html#notes), [Source Code](https://github.com/Laverna/laverna)) `MPLv2` `Nodejs`
@@ -2109,10 +2452,14 @@
 * [savepad](https://github.com/novavex/textpad) - A minimalist notepad based on notepad.cc. `MIT` `PHP`
 * [ShareLaTex](https://www.sharelatex.com/) - A web-based collaborative LaTeX editor. ([Source Code](https://github.com/sharelatex/sharelatex)) `AGPLv3` `Ruby`
 * [Turtl](https://turtl.it/) - A totally private personal database and note taking app. ([Source Code](https://github.com/turtl)) `GPLv3` `CommonLisp`
+
 ## Notification
 *Toaster / snackbar — Notify the user with a modeless temporary little popup*
+
+
 ## ORM
 *Libraries that implement Object-Relational Mapping or data mapping techniques.*
+
 * [ActiveRecord](https://github.com/rails/rails/tree/master/activerecord) - Object-relational mapping in Rails.
 * [DataMapper](https://github.com/datamapper/dm-core) - ORM which works well with legacy databases. Last release (1.2.0) was on 13 October 2011.
 * [Guacamole](https://github.com/triAGENS/guacamole) - An ODM for ArangoDB.
@@ -2193,19 +2540,27 @@
 * [redisco](https://github.com/kiddouk/redisco) - A Python Library for Simple Models and Containers Persisted in Redis.
 * [butterdb](https://github.com/Widdershin/butterdb) - A Python ORM for Google Drive Spreadsheets.
 * [dataset](https://github.com/pudo/dataset) - A JSON-based database.
+
 ## OpenGL
 *Libraries for using OpenGL in Go.*
+
 * [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL (generated via glow).
 * [glfw](https://github.com/go-gl/glfw) - Go bindings for GLFW 3.
 * [goxjs/gl](https://github.com/goxjs/gl) - Go cross-platform OpenGL bindings (OS X, Linux, Windows, browsers, iOS, Android).
 * [goxjs/glfw](https://github.com/goxjs/glfw) - Go cross-platform glfw library for creating an OpenGL context and receiving events.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
+
 ## Operating Systems
 *Malware analysts and reverse-engineering*
+
+
 ## Overlay
 *Display overlay / modal / alert / dialog / lightbox / popup*
+
+
 ## Package Management
 *Libraries for package and dependency management.*
+
 * [Bundler](http://bundler.io) - Manage your application's gem dependencies with less pain.
 * [RubyGems](https://rubygems.org) - Community's gem hosting service.
 * [gemdiff](https://github.com/teeparham/gemdiff) - Find source repositories for gems. Open, compare, and update outdated gem versions.
@@ -2232,34 +2587,52 @@
 * [Curdling](http://clarete.li/curdling/) - Curdling is a command line tool for managing Python packages.
 * [pip-tools](https://github.com/nvie/pip-tools) - A set of tools to keep your pinned Python dependencies fresh.
 * [wheel](http://pythonwheels.com/) - The new standard of Python distribution and are intended to replace eggs.
+
 ## Package Repositories
 *Local PyPI repository server and proxies.*
+
 * [warehouse](https://github.com/pypa/warehouse) - Next generation Python Package Repository (PyPI).
 * [bandersnatch](https://bitbucket.org/pypa/bandersnatch) - PyPI mirroring tool provided by Python Packaging Authority (PyPA).
 * [devpi](http://doc.devpi.net/latest/) - PyPI server and packaging/testing/release tool.
 * [localshop](https://github.com/mvantellingen/localshop) - Local PyPI server (custom packages and auto-mirroring of pypi).
+
 ## Permissions
 *Libraries that allow or deny users access to data or functionality.*
+
 * [Carteblanche](https://github.com/neuman/python-carteblanche/) - Module to align code with thoughts of users and designers. Also magically handles navigation and permissions.
 * [django-guardian](https://github.com/django-guardian/django-guardian) - Implementation of per object permissions for Django 1.2+
 * [django-rules](https://github.com/dfunckt/django-rules) - A tiny but powerful app providing object-level permissions to Django, without requiring a database.
+
 ## Platforms
 *Projects that can be used to host a CTF*
+
+
 ## Podcasts 
 *Something to listen to while programming.*
+
+
 ## Portal
 *Render React DOM into a new context (aka "Portal")*
+
+
 ## Preprocessors 
 *Build CSS faster*
+
+
 ## Processes
 *Libraries for starting and communicating with OS processes.*
+
 * [envoy](https://github.com/kennethreitz/envoy) - Python [subprocess](https://docs.python.org/2/library/subprocess.html) for Humans™.
 * [sarge](http://sarge.readthedocs.io/) - Yet another wrapper for subprocess.
 * [sh](https://github.com/amoffat/sh) - A full-fledged subprocess replacement for Python.
+
 ## Props from server
 *Component properties asynchronously fetched over the network*
+
+
 ## Queue
 *Libraries for working with event and task queues.*
+
 * [Backburner](https://github.com/nesquena/backburner) - Backburner is a beanstalkd-powered job queue that can handle a very high volume of jobs.
 * [Bunny](https://github.com/ruby-amqp/bunny) - Bunny is a popular, easy to use, well-maintained Ruby client for RabbitMQ (3.3+).
 * [Delayed::Job](https://github.com/collectiveidea/delayed_job) - Database backed asynchronous priority queue.
@@ -2277,8 +2650,10 @@
 * [mrq](https://github.com/pricingassistant/mrq) - Mr. Queue - A distributed worker task queue in Python using Redis & gevent.
 * [rq](http://python-rq.org/) - Simple job queues for Python.
 * [simpleq](https://github.com/rdegges/simpleq) - A simple, infinitely scalable, Amazon SQS based queue.
+
 ## RESTful API
 *Libraries for developing RESTful APIs.*
+
 * [django-formapi](https://github.com/5monkeys/django-formapi) - Create JSON APIs with Django's form validation.
 * [django-rest-framework](http://www.django-rest-framework.org/) - A powerful and flexible toolkit to build web APIs.
 * [django-tastypie](http://tastypieapi.org/) - Creating delicious APIs for Django apps.
@@ -2293,15 +2668,21 @@
 * [restless](https://github.com/toastdriven/restless) - Framework agnostic REST framework based on lessons learned from Tastypie.
 * [ripozo](https://github.com/vertical-knowledge/ripozo) - Quickly creating REST/HATEOAS/Hypermedia APIs.
 * [sandman](https://github.com/jeffknupp/sandman) - Automated REST APIs for existing database-driven systems.
+
 ## RPC Servers
 *RPC-compatible servers.*
+
 * [SimpleJSONRPCServer](https://github.com/joshmarshall/jsonrpclib/) - This library is an implementation of the JSON-RPC specification.
 * [SimpleXMLRPCServer](https://docs.python.org/2/library/simplexmlrpcserver.html) - (Python standard library) Simple XML-RPC server implementation, single-threaded.
 * [zeroRPC](https://github.com/0rpc/zerorpc-python) - zerorpc is a flexible RPC implementation based on [ZeroMQ](http://zeromq.org/) and [MessagePack](http://msgpack.org/).
+
 ## Reporter
 *Report computed styles*
+
+
 ## Resources
 *Where to discover about CTF*
+
 * [Awesome Ruby @LibHunt](https://ruby.libhunt.com) - Your go-to Ruby Toolbox. The Awesome Ruby collection + ordering by popularity, additional metadata and comparisons.
 * [GitHub Trending](https://github.com/trending?l=ruby) - Find what repositories the GitHub community is most excited about today.
 * [Green Ruby News](http://greenruby.org) - A feed of fresh links of the week about ruby, javascript, webdev and devops.
@@ -2316,10 +2697,14 @@
 * [Official Hyper Website](https://hyper.is/) - The official Hyper website.
 * [hyperzsh](https://www.npmjs.com/package/hyperzsh) - Zsh for Hyper.
 * [Extending Hyper](https://www.youtube.com/watch?v=q_O-VEermsk&list=PL31ehRjJCA6Ez9Y_dZWymd_LDV7Ydc_0D&index=2) - A talk by Matthew Conlen ([@mathisonian](https://github.com/mathisonian)) at EmpireNode 2016.
+
 ## Reversing
 *SWF Analyzers*
+
+
 ## Science
 *Libraries for scientific computing.*
+
 * [astropy](http://www.astropy.org/) - A community Python library for Astronomy.
 * [bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen) - Providing best-practice pipelines for fully automated high throughput sequencing analysis.
 * [bccb](https://github.com/chapmanb/bcbb) - Collection of useful code related to biological analysis.
@@ -2336,8 +2721,10 @@
 * [statsmodels](https://github.com/statsmodels/statsmodels) - Statistical modeling and econometrics in Python.
 * [SymPy](https://github.com/sympy/sympy) - A Python library for symbolic mathematics.
 * [Zipline](https://github.com/quantopian/zipline) - A Pythonic algorithmic trading library.
+
 ## Science and Data Analysis
 *Libraries for scientific computing and data analyzing.*
+
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
 * [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
@@ -2361,8 +2748,10 @@
 * [stats](https://github.com/montanaflynn/stats) - A statistics package with common functions missing from the Golang standard library.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code. (currently inactive)
+
 ## Search
 *Libraries and software for indexing and performing search queries on data.*
+
 * [chewy](https://github.com/toptal/chewy) - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
 * [elasticsearch-ruby](https://github.com/elastic/elasticsearch-ruby) - Ruby integrations for Elasticsearch.
 * [elastics](https://github.com/printercu/elastics-rb) - Simple ElasticSearch client with support for migrations and ActiveRecord integration.
@@ -2391,8 +2780,10 @@
 * [esengine](https://github.com/catholabs/esengine) - ElasticSearch ODM (Object Document Mapper) for Python.
 * [solrpy](https://github.com/edsu/solrpy) - A Python client for [solr](http://lucene.apache.org/solr/).
 * [Whoosh](http://whoosh.readthedocs.io/) - A fast, pure Python search engine library.
+
 ## Security
 *Libraries that are used to help make your application more secure.*
+
 * [bundler-audit](https://github.com/rubysec/bundler-audit) - Patch-level security verification for Bundler.
 * [Gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations.
 * [Metasploit](https://github.com/rapid7/metasploit-framework) - World's most used penetration testing software.
@@ -2408,8 +2799,10 @@
 * [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
 * [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
 * [simple-scrypt](https://github.com/elithrar/simple-scrypt) - an scrypt package with a simple, obvious API and automatic cost calibration built-in.
+
 ## Serialization
 *Libraries for serializing complex data types*
+
 * [asn1](https://github.com/PromonLogicalis/asn1) - Asn.1 BER and DER encoding library for golang
 * [colfer](https://github.com/pascaldekloe/colfer) - Code generation for the Colfer binary format
 * [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
@@ -2421,19 +2814,29 @@
 * [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions
 * [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
 * [marshmallow](https://github.com/marshmallow-code/marshmallow) - marshmallow is an ORM/ODM/framework-agnostic library for converting complex datatypes, such as objects, to and from native Python datatypes.
+
 ## Serverless Frameworks
 *Frameworks for developing serverless Python code.*
+
 * [apex](https://github.com/apex/apex) - Build, deploy, and manage [AWS Lambda](https://aws.amazon.com/lambda/) functions with ease.
 * [python-lambda](https://github.com/nficano/python-lambda) - A toolkit for developing and deploying Python code in AWS Lambda.
 * [Zappa](https://github.com/Miserlou/Zappa) - A tool for deploying WSGI applications on AWS Lambda and API Gateway.
+
 ## Services
 *Various kind of useful services available around the internet*
+
+
 ## Solve
 *Tools used for solving CTF challenges*
+
+
 ## Sortable List
 *Let the user define an order on a list*
+
+
 ## Specific Formats Processing
 *Libraries for parsing and manipulating specific text formats.*
+
 * [tablib](https://github.com/kennethreitz/tablib) - A module for Tabular Datasets in XLS, CSV, JSON, YAML.
 * [Marmir](https://github.com/brianray/mm) - Takes Python data structures and turns them into spreadsheets.
 * [openpyxl](https://openpyxl.readthedocs.io/) - A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
@@ -2452,8 +2855,10 @@
 * [PyYAML](http://pyyaml.org/) - YAML implementations for Python.
 * [csvkit](https://github.com/wireservice/csvkit) - Utilities for converting to and working with CSV.
 * [unp](https://github.com/mitsuhiko/unp) - A command line tool that can unpack archives easily.
+
 ## Standard CLI
 *Libraries for building standard or basic Command Line applications*
+
 * [argv](https://github.com/cosiner/argv) - A Go library to split command line string as arguments array using the bash syntax.
 * [cli](https://github.com/mkideal/cli) - A feature-rich and easy to use command-line package based on golang tag
 * [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
@@ -2474,25 +2879,37 @@
 * [urfave/cli](https://github.com/urfave/cli) - A simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
 * [wmenu](https://github.com/dixonwille/wmenu) - An easy to use menu structure for cli applications that prompts users to make choices.
+
 ## Starter Packs
 *Collections of installer scripts, useful tools*
+
+
 ## Static Site Generator
 *Static site generator is a software that takes some text + templates as input and produces HTML files on the output.*
+
 * [Cactus](https://github.com/koenbok/Cactus/) - Static site generator for designers.
 * [Hyde](http://hyde.github.io/) - Jinja2-based static web site generator.
 * [Lektor](https://www.getlektor.com/) - An easy to use static CMS and blog engine.
 * [Nikola](https://www.getnikola.com/) - A static website and blog generator.
 * [Pelican](http://blog.getpelican.com/) - Uses Markdown or ReST for content and Jinja 2 for themes. Supports DVCS, Disqus. AGPL.
 * [Tinkerer](http://tinkerer.me/) - Tinkerer is a blogging engine/.static website generator powered by Sphinx.
+
 ## Steganography
 *Tools used for solving Steganography challenges*
+
+
 ## Sticky
 *Implementations similar to `position: sticky`*
+
+
 ## Tagging
 *Libraries for tagging items.*
+
 * [django-taggit](https://github.com/alex/django-taggit) - Simple tagging for Django.
+
 ## Task management
 *See also [Project Management](#project-management) and [Ticketing](#ticketing).*
+
 * [bulldog](https://github.com/infews/bulldog) - HTML5 task manager, built on todo.txt. `MIT` `HTML5`
 * [Crepido](https://github.com/arshad/crepido) - Create (kanban) boards to track users and projects from flat markdown files. `MIT` `Nodejs`
 * [Kanboard](http://kanboard.net/) - A simple and open source visual task board. ([Source Code](https://github.com/kanboard/kanboard)) `MIT` `PHP`
@@ -2512,8 +2929,10 @@
 * [Tracks](http://www.getontracks.org/) - A web-based application to help you implement David Allen’s [Getting Things Done™](https://en.wikipedia.org/wiki/Getting_Things_Done) methodology. ([Source Code](https://github.com/TracksApp/tracks)) `GPLv2` `Ruby`
 * [Volition](https://www.usevolition.com) - Opinionated open-source task management. ([Source Code](https://github.com/garrettqmartin8/volition)) `MIT` `Ruby`
 * [Wekan](https://wekan.io/) - An open-source Trello-like kanban. ([Demo](https://oasis.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h), [Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
+
 ## Template Engine
 *Libraries and tools for templating and lexing.*
+
 * [Curly](https://github.com/zendesk/curly) - A template language that completely separates structure and logic.
 * [Haml](https://github.com/haml/haml) - HTML Abstraction Markup Language.
 * [Liquid](https://github.com/Shopify/liquid) - Safe, customer facing template language for flexible web apps.
@@ -2523,8 +2942,10 @@
 * [Genshi](https://genshi.edgewall.org/) - Python templating toolkit for generation of web-aware output.
 * [Jinja2](https://github.com/pallets/jinja) - A modern and designer friendly templating language.
 * [Mako](http://www.makotemplates.org/) - Hyperfast and lightweight templating for the Python platform.
+
 ## Template Engines
 *Libraries and tools for templating and lexing.*
+
 * [ace](https://github.com/yosssi/ace) - Ace is an HTML template engine for Go, inspired by Slim and Jade. Ace is a refinement of Gold.
 * [amber](https://github.com/eknkc/amber) - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
 * [damsel](https://github.com/dskinner/damsel) - Markup language featuring html outlining via css-selectors, extensible via pkg html/template and others.
@@ -2540,10 +2961,14 @@
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
 * [velvet](https://github.com/gobuffalo/velvet) - A complete handlebars implementation in Go.
+
 ## Test User Behavior
 *A/B tests, experiments, ...*
+
+
 ## Testing
 *Libraries for testing codebases and generating test data.*
+
 * [RSpec](https://github.com/rspec/rspec) - Behaviour Driven Development for Ruby.
 * [Emoji-RSpec](https://github.com/cupakromer/emoji-rspec) - Custom Emoji Formatters for RSpec.
 * [Fuubar](https://github.com/thekompanee/fuubar) - The instafailing RSpec progress bar formatter.
@@ -2657,8 +3082,10 @@
 * [faker](https://github.com/joke2k/faker) - A Python package that generates fake data.
 * [radar](https://pypi.python.org/pypi/radar) - Generate random datetime / time.
 * [FuckIt.py](https://github.com/ajalt/fuckitpy) - FuckIt.py uses state-of-the-art technology to make sure your Python code runs whether it has any right to or not.
+
 ## Text Processing
 *Libraries for parsing and manipulating plain texts.*
+
 * [allot](https://github.com/sbstjn/allot) - Placeholder and wildcard text parsing for CLI tools and bots
 * [bbConvert](https://github.com/CalebQ42/bbConvert) - Converts bbCode to HTML that allows you to add support for custom bbCode tags
 * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
@@ -2713,8 +3140,10 @@
 * [python-nameparser](https://github.com/derek73/python-nameparser) - Parsing human names into their individual components.
 * [python-user-agents](https://github.com/selwin/python-user-agents) - Browser user agent parser.
 * [sqlparse](https://github.com/andialbrecht/sqlparse) - A non-validating SQL parser.
+
 ## Third
 *Libraries for accessing third party services APIs. See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers).*
+
 * [databasedotcom](https://github.com/heroku/databasedotcom) - Ruby client for the Salesforce's Database.com and Chatter APIs.
 * [Dropbox](https://github.com/futuresimple/dropbox-api) - Dropbox API Ruby Client.
 * [facy](https://github.com/huydx/facy) - Command line power tool for facebook.
@@ -2824,8 +3253,10 @@
 * [google-api-python-client](https://github.com/google/google-api-python-client) - Google APIs Client Library for Python.
 * [gspread](https://github.com/burnash/gspread) - Google Spreadsheets Python API.
 * [twython](https://github.com/ryanmcgrath/twython) - A Python wrapper for the Twitter API.
+
 ## Ticketing
 *See also [Task management/To-do lists](#task-managementto-do-lists) and [Project Management](#project-management)*
+
 * [Brimir](https://getbrimir.com/) - Simple and clean open-source ticket manager written in Ruby on Rails. ([Source Code](https://github.com/ivaldi/brimir)) `AGPLv3` `Ruby`
 * [Bugzilla](https://www.bugzilla.org/) - General-purpose bugtracker and testing tool originally developed and used by the Mozilla project. `MPLv2` `Perl`
 * [Bumpy Booby](http://bumpy-booby.derivoile.fr/) - A simple, responsive and highly customizable PHP bug tracking system. ([Source Code](https://github.com/piero-la-lune/Bumpy-Booby)) `MIT` `PHP`
@@ -2841,12 +3272,18 @@
 * [Request Tracker](https://www.bestpractical.com/rt/) - An enterprise-grade issue tracking system. ([Source Code](https://github.com/bestpractical/rt)) `GPLv2` `Perl`
 * [TheBugGenie](http://www.thebuggenie.org) - Ticket system with extensive user rights system. ([Source Code](https://github.com/thebuggenie/thebuggenie)) `MPLv2` `PHP`
 * [Zammad](https://zammad.org/) - Easy to use but powerful open-source support & ticketing system. ([Source Code](https://github.com/zammad/zammad)) `AGPLv3` `Ruby`
+
 ## Time 
 *Display time / date / age*
+
+
 ## Tree
 *Display a tree data structure*
+
+
 ## Tutorials
 *Tutorials to learn how to play CTFs*
+
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go.
 * [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Get familiar with Gin and find out how it can help you reduce boilerplate code and build a request handling pipeline.
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs.
@@ -2854,25 +3291,39 @@
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers.
+
 ## Twitter 
 *Active accounts to follow.*
+
+
 ## Type Select
 *Let the user select a tag / something while typing*
+
+
 ## UI Animation
 *Animate transitions*
+
+
 ## UI Layout
 *Components to layout the app's UI*
+
+
 ## UI Navigation
 *Ways to navigate views*
+
+
 ## URL Manipulation
 *Libraries for parsing URLs.*
+
 * [furl](https://github.com/gruns/furl) - A small Python library that makes manipulating URLs simple.
 * [purl](https://github.com/codeinthehole/purl) - A simple, immutable URL class with a clean API for interrogation and manipulation.
 * [pyshorteners](https://github.com/ellisonleao/pyshorteners) - A pure Python URL shortening lib.
 * [short_url](https://github.com/Alir3z4/python-short_url) - Python implementation for generating Tiny URL and bit.ly-like URLs.
 * [webargs](https://github.com/sloria/webargs) - A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks, including Flask, Django, Bottle, Tornado, and Pyramid.
+
 ## Utilities
 *General utilities and tools to make your life easier.*
+
 * [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 * [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)
@@ -3040,20 +3491,26 @@
 * [Laravel Test Factory Generator](https://github.com/mpociot/laravel-test-factory-helper) - Generate Laravel test factories from your existing models
 * [Laravel-modules](https://github.com/nWidart/laravel-modules) - Easy Module Management In Laravel
 * [Laravel Phone](https://github.com/Propaganistas/Laravel-Phone) - Phone number validator and formatter.
+
 ## Validation
 *Libraries for validation.*
+
 * [govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs.
 * [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - Supports validation of various data types (structs, strings, maps, slices, etc.) with configurable and extensible validation rules specified in usual code constructs instead of struct tags.
 * [validate](https://github.com/markbates/validate) - This package provides a framework for writing validations for Go applications.
 * [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
+
 ## Version Control
 *Libraries for version control.*
+
 * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks.
 * [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 * [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
 * [hgo](https://github.com/beyang/hgo) - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.
+
 ## Video
 *Libraries for manipulating video and GIFs.*
+
 * [Streamio FFMPEG](https://github.com/streamio/streamio-ffmpeg) - Simple yet powerful wrapper around the ffmpeg command for reading metadata and transcoding movies.
 * [Video Transcoding](https://github.com/donmelton/video_transcoding) - Tools to transcode, inspect and convert videos.
 * [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
@@ -3062,12 +3519,18 @@
 * [v4l](https://github.com/korandiz/v4l) - A video capture library for Linux, written in Go.
 * [moviepy](http://zulko.github.io/moviepy/) - A module for script-based movie editing with many formats, including animated GIFs.
 * [scikit-video](https://github.com/aizvorski/scikit-video) - Video processing routines for SciPy.
+
 ## Videos 
 *A good study videos for CSS Must Watch Videos. Some items are quoted from [AllThingsSmitty/must-watch-css](https://github.com/AllThingsSmitty/must-watch-css). [I told him on Twitter](https://twitter.com/sota0805/status/527635856031375360). I appreciate his valuable efforts.*
+
+
 ## Visibility Reporter
 *Report when a component becomes visible/hidden*
+
+
 ## WSGI Servers
 *WSGI-compatible web servers.*
+
 * [bjoern](https://pypi.python.org/pypi/bjoern) - Asynchronous, very fast and written in C.
 * [fapws3](http://www.fapws.org/) - Asynchronous (network side only), written in C.
 * [gunicorn](https://pypi.python.org/pypi/gunicorn) - Pre-forked, partly written in C.
@@ -3078,14 +3541,20 @@
 * [uWSGI](https://uwsgi-docs.readthedocs.io/) - A project aims at developing a full stack for building hosting services, written in C.
 * [waitress](https://waitress.readthedocs.io/) - Multi-threaded, powers Pyramid.
 * [Werkzeug](http://werkzeug.pocoo.org/) - A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects.
+
 ## Wargames
 *Self-hosted CTFs*
+
+
 ## Web
 *Tools used for solving Web challenges*
+
 * [Hack This Site!](https://www.hackthissite.org/) - a free, safe and legal training ground for hackers to test and expand their hacking skills
 * [0xf.at](https://0xf.at/) - a website without logins or ads where you can solve password-riddles (so called hackits).
+
 ## Web Content Extracting
 *Libraries for extracting web contents.*
+
 * [Haul](https://github.com/vinta/Haul) - An Extensible Image Crawler.
 * [html2text](https://github.com/Alir3z4/html2text) - Convert HTML to Markdown-formatted text.
 * [lassie](https://github.com/michaelhelmick/lassie) - Web Content Retrieval for Humans.
@@ -3097,8 +3566,10 @@
 * [sanitize](https://github.com/Alir3z4/python-sanitize) - Bringing sanity to world of messed-up data.
 * [sumy](https://github.com/miso-belica/sumy) - A module for automatic summarization of text documents and HTML pages.
 * [textract](https://github.com/deanmalmgren/textract) - Extract text from any document, Word, PowerPoint, PDFs, etc.
+
 ## Web Crawling
 *Libraries for scraping websites.*
+
 * [anemone](https://github.com/chriskite/anemone) - Ruby library and CLI for crawling websites.
 * [LinkThumbnailer](https://github.com/gottfrois/link_thumbnailer) - Ruby gem that generates thumbnail images and videos from a given URL. Much like popular social website with link preview.
 * [Mechanize](https://github.com/sparklemotion/mechanize) - Mechanize is a ruby library that makes automated web interaction easy.
@@ -3114,8 +3585,10 @@
 * [pyspider](https://github.com/binux/pyspider) - A powerful spider system.
 * [RoboBrowser](https://github.com/jmcarp/robobrowser) - A simple, Pythonic library for browsing the web without a standalone web browser.
 * [Scrapy](http://scrapy.org/) - A fast high-level screen scraping and web crawling framework.
+
 ## Web Frameworks
 *Full stack web frameworks.*
+
 * [Camping](https://github.com/camping/camping) - A web microframework which consistently stays at less than 4kB of code.
 * [Cuba](http://cuba.is) - A microframework for web development.
 * [Hobbit](https://github.com/patriciomacadden/hobbit) - A minimalistic microframework built on top of Rack.
@@ -3196,8 +3669,10 @@
 * [Tornado](http://www.tornadoweb.org/en/latest/) - A Web framework and asynchronous networking library.
 * [TurboGears](http://www.turbogears.org/) - A microframework that can scale up to a full stack solution.
 * [Web2py](http://www.web2py.com/) - Full-stack enterprise framework for secure database-driven web-based applications.
+
 ## WebSocket
 *Libraries for working with WebSocket.*
+
 * [Faye](http://faye.jcoglan.com/ruby.html) - A set of tools for simple publish-subscribe messaging between web clients.
 * [Firehose](https://github.com/firehoseio/firehose) - Build realtime Ruby web applications.
 * [Rails Realtime](https://github.com/liamks/rails-realtime) - Adding Real-Time To Your RESTful Rails App.
@@ -3208,8 +3683,10 @@
 * [Crossbar](https://github.com/crossbario/crossbar/) - Open-source Unified Application Router (Websocket & WAMP for Python on Autobahn).
 * [django-socketio](https://github.com/stephenmcd/django-socketio) - WebSockets for Django.
 * [WebSocket-for-Python](https://github.com/Lawouach/WebSocket-for-Python) - WebSocket client and server library for Python 2 and 3 as well as PyPy.
+
 ## Websites
 *Various general websites about and on ctf*
+
 * [Awesome Go @LibHunt](https://go.libhunt.com) - Your go-to Go Toolbox.
 * [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - A curated list of awesome remote jobs. A lot of them is looking for Go hackers.
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
@@ -3227,8 +3704,10 @@
 * [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+
 ## Wikis
 *Various Wikis available for learning about CTFs*
+
 * [Blazekiss](http://projet.idleman.fr/blazekiss/) - BlazeKiss is a KISS-based wiki (Keep It Simple, Stupid) - simplicity and functionality comes before all. ([Source Code](https://github.com/ldleman/blazekiss)) `GPLv3` `PHP`
 * [BookStack](https://www.bookstackapp.com/) - BookStack is a simple, self-hosted, easy-to-use platform for organizing and storing information. It allows for documentation to be stored in a book like fashion. ([Demo](https://www.bookstackapp.com/#demo), [Source Code](https://github.com/ssddanbrown/BookStack)) `MIT` `PHP`
 * [django-wiki](https://github.com/django-wiki/django-wiki) - A wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models. ([Demo](https://demo.django.wiki/)) `GPLv3` `Python`
@@ -3250,5 +3729,7 @@
 * [Wikifeat](https://www.wikifeat.org/app/wikis/wikifeat/pages/welcome) - Wikifeat is an open source collaboration platform built around the ever-popular Wiki concept. ([Source Code](https://github.com/rhinoman/wikifeat)) `BSD` `GO`
 * [WiKiss](http://wikiss.tuxfamily.org/) - A Wiki, simple to use and install. ([Source Code](https://svnweb.tuxfamily.org/listing.php?repname=wikiss/svn&path=%2F&sc=0)) `GPLv2` `PHP`
 * [Wikitten](http://wikitten.vizuina.com/) - Wikitten is a small, fast, PHP wiki, and the perfect place to store your notes, code snippets, ideas, and so on. ([Source Code](https://github.com/victorstanciu/Wikitten)) `MIT` `PHP`
+
 ## Writeups Collections
 *Collections of CTF write-ups*
+
